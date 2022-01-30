@@ -38,16 +38,20 @@ dump = cat-file -p
 
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
 
-###Bajar el repo (clonar repo en local):
-´´´ssh`git clone dirección del Repo`  
-2. iniciar el repo local: `git init`  
+### Bajar el repo (clonar repo en local):
+
+```ssh
+`git clone dirección del Repo`
+```
+
+2. iniciar el repo local: `git init`
 3. Adicionar archivos al índice: `git add **file**` 4. Sacar archivos del índice: `git restore --staged **file**` 5. Agregar archivos: `git commit -m "mensaje"` 6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**` 7. Correción del mensaje del último commit: `git commit --amend` 8. listado de commits: `git log` 9. listado de commits en una línea: `git log --oneline` 10. ver un número limitado de commits (últimos tres): `git log -3` 11. Listado de commits con el nombre de archivos afectados: `git log --raw` 10. Listado de commits con cambios hechos en los archivos: `git log --patch`
 
-14. git checkout -b miRama
-15. git branch
-16. git checkout master
-17. git branch -d miRama
-18. git push
-19. git push --set-upstream origin miRama
-20. git commit -am "msg"
-21. git pull
+4. git checkout -b miRama
+5. git branch
+6. git checkout master
+7. git branch -d miRama
+8. git push
+9. git push --set-upstream origin miRama
+10. git commit -am "msg"
+11. git pull
