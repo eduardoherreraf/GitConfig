@@ -34,8 +34,10 @@ En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
     dump = cat-file -p
 
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
-1. Clonar repo en local: `git clone dirección del Repo`
+1. bajar el repo (clonar repo en local): `git clone dirección del Repo`
+2. iniciar el repo local: `git init`
 2. Adicionar archivos al índice: `git add **file**`
 3. Sacar archivos del índice: `git restore --staged **file**`
 3. Agregar archivos: `git commit -m "mensaje"`
+
 
