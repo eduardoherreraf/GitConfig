@@ -108,7 +108,7 @@ git restore --staged file
 git checkout -- file.ext
 ```
 
-## CONFIRMAR LOS ARCHIVOS GUARDADADO
+## CONFIRMAR LOS ARCHIVOS GUARDADADOS
 
 ```ssh
 git commit -m "mensaje"
