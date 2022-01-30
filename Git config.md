@@ -110,17 +110,18 @@ git checkout -- file.ext
 
 ### CONFIRMAR LOS ARCHIVOS GUARDADADOS
 
+- Confirmar los archivos guardadados con `git add`
 ```ssh
 git commit -m "mensaje"
 ```
 
-- Comando que añade y confirma los archivos
+- Comando que añade y confirma los archivos:
 
 ```ssh
 git commit -am "mensaje"
 ```
 
-- Corrige el mensaje del último commit
+- Corrige el mensaje del último commit:
 
 ```ssh
 git commit --amend "mensaje"
@@ -128,31 +129,29 @@ git commit --amend "mensaje"
 
 ### LISTADO DE COMMITS HECHOS
 
-- Listado de Commits
+- Listado de Commits:
 
 ```ssh
 git log
 ```
 
-- Listado de Commits una línea por commit
+- Listado de Commits una línea por commit:
 
 ```ssh
 git log --oneline
 ```
 
-- Listado de sólo tres Commits
+- Listado de sólo **N** Commits:
 
 ```ssh
-git log -3
+git log -N
 ```
-
----
-
-- Listado de Commits una línea por commit
+- Listado de commits con el nombre de archivos afectados:
 
 ```ssh
-
+git log --raw
 ```
+--------
 
 ver un número limitado de commits (últimos tres): `
 
@@ -173,8 +172,7 @@ git log --oneline
 ```ssh
 git log --oneline
 ```
-
----
+ ---
 
 - Listado de Commits una línea por commit
 
@@ -184,7 +182,7 @@ git log --oneline
 
 ---
 
-11. Listado de commits con el nombre de archivos afectados: `git log --raw`
+11. 
 12. Listado de commits con cambios hechos en los archivos: `git log --patch`
 
 13. git checkout -b miRama
