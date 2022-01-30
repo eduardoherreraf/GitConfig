@@ -82,13 +82,13 @@ git init
 
 ## AÑADIR ARCHIVOS PARA EL COMMIT
 
-- Añadir **todos** archivos al índice:
+- Añadir **todos** archivos:
 
 ```ssh
 git add .
 ```
 
-- Añadir el archivo **file.ext** al índice:
+- Añadir el archivo **file.ext**:
 
 ```ssh
 git add file.ext
