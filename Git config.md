@@ -70,7 +70,7 @@ En el archivo c:Program Files/Git/etc/gitconfig se le agrega al final:
 - Bajar el repo (clonar repo en local):
 
 ```ssh
-git clone **url del Repo**
+git clone <url del Repo>
 ```
 
 - iniciar el repo local:
