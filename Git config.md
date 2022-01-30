@@ -128,11 +128,62 @@ git commit --amend "mensaje"
 
 ### LISTADO DE COMMITS HECHOS
 
+- Listado de Commits
+
+```ssh
+git log
+```
+
+- Listado de Commits una línea por commit
+
+```ssh
+git log --oneline
+```
+
+- Listado de sólo tres Commits
+
+```ssh
+git log -3
+```
+
 ---
 
-8. listado de commits: `git log`
-9. listado de commits en una línea: `git log --oneline`
-10. ver un número limitado de commits (últimos tres): `git log -3`
+- Listado de Commits una línea por commit
+
+```ssh
+
+```
+
+ver un número limitado de commits (últimos tres): `
+
+- Listado de Commits una línea por commit
+
+```ssh
+git log --oneline
+```
+
+- Listado de Commits una línea por commit
+
+```ssh
+git log --oneline
+```
+
+- Listado de Commits una línea por commit
+
+```ssh
+git log --oneline
+```
+
+---
+
+- Listado de Commits una línea por commit
+
+```ssh
+git log --oneline
+```
+
+---
+
 11. Listado de commits con el nombre de archivos afectados: `git log --raw`
 12. Listado de commits con cambios hechos en los archivos: `git log --patch`
 
