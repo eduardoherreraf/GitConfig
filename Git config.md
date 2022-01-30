@@ -43,6 +43,8 @@ En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
 
 ```ssh
     br = branch
+```
+
     ci = commit
     co = checkout
     cob = checkout -b
@@ -65,7 +67,8 @@ En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
     rs = rebase --skip
     type = cat-file -t
     dump = cat-file -p
-```
+
+````
 
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
 
@@ -75,7 +78,7 @@ En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
 
 ```ssh
 git clone dirección del Repo
-```
+````
 
 2. iniciar el repo local:
 
