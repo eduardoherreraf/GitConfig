@@ -10,8 +10,8 @@
 
 ## CONFIGURACIÓN ALIASES COMO ATAJOS DE TECLADO
 
-En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
-[alias]
+En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig  
+[alias]  
 br = branch  
 ci = commit  
 co = checkout  
@@ -38,20 +38,11 @@ dump = cat-file -p
 
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
 
-1. bajar el repo (clonar repo en local): `git clone dirección del Repo`
-2. iniciar el repo local: `git init`
-3. Adicionar archivos al índice: `git add **file**`
-4. Sacar archivos del índice: `git restore --staged **file**`
-5. Agregar archivos: `git commit -m "mensaje"`
-6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**`
+###Bajar el repo (clonar repo en local):
+´´´ssh`git clone dirección del Repo`  
+2. iniciar el repo local: `git init`  
+3. Adicionar archivos al índice: `git add **file**` 4. Sacar archivos del índice: `git restore --staged **file**` 5. Agregar archivos: `git commit -m "mensaje"` 6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**` 7. Correción del mensaje del último commit: `git commit --amend` 8. listado de commits: `git log` 9. listado de commits en una línea: `git log --oneline` 10. ver un número limitado de commits (últimos tres): `git log -3` 11. Listado de commits con el nombre de archivos afectados: `git log --raw` 10. Listado de commits con cambios hechos en los archivos: `git log --patch`
 
-7. git restore --staged miArchivo
-8.
-9. git commit -m "msg"
-10. git commit --amend
-11. git log
-12. git log --raw
-13. git log --patch
 14. git checkout -b miRama
 15. git branch
 16. git checkout master
