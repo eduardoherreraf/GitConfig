@@ -80,7 +80,7 @@ git clone <url del Repo> <carpeta local>
 git init
 ```
 
-## AÑADIR ARCHIVOS AL ÁREA DE PREPARACIÓN PARA EL COMMIT
+### AÑADIR ARCHIVOS AL ÁREA DE PREPARACIÓN PARA EL COMMIT
 
 - Añadir **todos** archivos:
 
@@ -94,7 +94,7 @@ git add .
 git add file
 ```
 
-## SACAR ARCHIVOS DEL ÁREA DE PREPARACIÓN
+### SACAR ARCHIVOS DEL ÁREA DE PREPARACIÓN
 
 - Sacar el archivo **file**:
 
@@ -108,7 +108,7 @@ git restore --staged file
 git checkout -- file.ext
 ```
 
-## CONFIRMAR LOS ARCHIVOS GUARDADADOS
+### CONFIRMAR LOS ARCHIVOS GUARDADADOS
 
 ```ssh
 git commit -m "mensaje"
@@ -126,7 +126,7 @@ git commit -am "mensaje"
 git commit --amend "mensaje"
 ```
 
-## LISTADO DE COMMITS HECHOS
+### LISTADO DE COMMITS HECHOS
 
 ---
 
