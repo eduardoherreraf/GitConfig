@@ -90,7 +90,7 @@ git add .
 - Añadir el archivo **file.ext** al índice:
 
 ```ssh
-git add **file.ext**
+git add file.ext
 ```
 
 4. Sacar archivos del índice: `git restore --staged **file**` 5. Agregar archivos: `git commit -m "mensaje"` 6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**` 7. Correción del mensaje del último commit: `git commit --amend` 8. listado de commits: `git log` 9. listado de commits en una línea: `git log --oneline` 10. ver un número limitado de commits (últimos tres): `git log -3` 11. Listado de commits con el nombre de archivos afectados: `git log --raw` 10. Listado de commits con cambios hechos en los archivos: `git log --patch`
