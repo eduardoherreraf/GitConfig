@@ -2,10 +2,11 @@
 
 ## CONFIGURACIÓN INICIAL
 
-1. Nombre del usuario: ```ssh
-   git config --global user.name "Eduardo Herrera Forero"
+1. Nombre del usuario:
 
-````
+```ssh
+   git config --global user.name "Eduardo Herrera Forero"
+```
 
 2. Correo Electrónico de Usuario: `git config --global user.email "ehfeduardo@gmail.com"`
 3. Editor de texto usado: `git config --global core.editor "code --wait"`
@@ -48,7 +49,7 @@ dump = cat-file -p
 
 ```ssh
 git clone dirección del Repo
-````
+```
 
 2. iniciar el repo local:
 
