@@ -38,10 +38,10 @@ dump = cat-file -p
 
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
 
-### Bajar el repo (clonar repo en local):
+1. Bajar el repo (clonar repo en local):
 
 ```ssh
-`git clone dirección del Repo`
+git clone dirección del Repo
 ```
 
 2. iniciar el repo local: `git init`
