@@ -32,7 +32,7 @@ git config --global core.autocrlf false
 git config --global core.pager ''
 ```
 
-## CONFIGURACIÓN ALIASES COMO ATAJOS DE TECLADO
+## CONFIGURACIÓN ALIAS CON ATAJOS DE TECLADO
 
 En el archivo c:Program Files/Git/etc/gitconfig se le agrega al final:
 
