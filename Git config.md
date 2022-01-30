@@ -32,10 +32,6 @@ git config --global core.autocrlf false
 git config --global core.pager ''
 ```
 
-```ssh
-
-```
-
 ## CONFIGURACIÓN ALIASES COMO ATAJOS DE TECLADO
 
 En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
@@ -43,8 +39,6 @@ En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
 
 ```ssh
     br = branch
-```
-
     ci = commit
     co = checkout
     cob = checkout -b
@@ -68,7 +62,7 @@ En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
     type = cat-file -t
     dump = cat-file -p
 
-````
+```
 
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
 
@@ -78,7 +72,7 @@ En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
 
 ```ssh
 git clone dirección del Repo
-````
+```
 
 2. iniciar el repo local:
 
@@ -96,3 +90,7 @@ git init
 9. git push --set-upstream origin miRama
 10. git commit -am "msg"
 11. git pull
+
+```ssh
+
+```
