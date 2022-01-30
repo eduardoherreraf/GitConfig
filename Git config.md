@@ -80,7 +80,7 @@ git clone <url del Repo> <carpeta local>
 git init
 ```
 
-## AÑADIR ARCHIVOS PARA EL COMMIT
+## AÑADIR ARCHIVOS AL ÍNDICE PARA EL COMMIT
 
 - Añadir **todos** archivos:
 
@@ -94,7 +94,7 @@ git add .
 git add file
 ```
 
-## SACAR ARCHIVOS PARA EL COMMIT
+## SACAR ARCHIVOS DEL ÍNDICE PARA EL COMMIT
 
 - Sacar el archivo **file** del índice:
 
@@ -103,7 +103,6 @@ git restore --staged file
 ```
 
 - Dejar el archivo **file** como estaba en el último commit
-  git checkout -- file
 
 ```ssh
 git checkout -- file.ext
