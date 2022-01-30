@@ -108,16 +108,26 @@ git restore --staged file
 git checkout -- file.ext
 ```
 
-## GUARDAR ARCHIVOS EN EL REPOSITORIO LOCAL
+## CONFIRMAR LOS ARCHIVOS GUARDADADO
 
 ```ssh
 git commit -m "mensaje"
 ```
 
+- Comando que añade y confirma los archivos
+
+```ssh
+git commit -am "mensaje"
+```
+
+- Corrige el mensaje del último commit
+
+```ssh
+git commit --amend "mensaje"
+```
+
 ---
 
-6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**`
-7. Correción del mensaje del último commit: `git commit --amend`
 8. listado de commits: `git log`
 9. listado de commits en una línea: `git log --oneline`
 10. ver un número limitado de commits (últimos tres): `git log -3`
