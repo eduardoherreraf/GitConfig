@@ -94,16 +94,27 @@ git add .
 git add file.ext
 ```
 
-4. Sacar archivos del índice: `git restore --staged **file**` 5. Agregar archivos: `git commit -m "mensaje"` 6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**` 7. Correción del mensaje del último commit: `git commit --amend` 8. listado de commits: `git log` 9. listado de commits en una línea: `git log --oneline` 10. ver un número limitado de commits (últimos tres): `git log -3` 11. Listado de commits con el nombre de archivos afectados: `git log --raw` 10. Listado de commits con cambios hechos en los archivos: `git log --patch`
+## SACAR ARCHIVOS PARA EL COMMIT
 
-5. git checkout -b miRama
-6. git branch
-7. git checkout master
-8. git branch -d miRama
-9. git push
-10. git push --set-upstream origin miRama
-11. git commit -am "msg"
-12. git pull
+- Sacar archivos del índice: `git restore --staged **file**`
+
+5. Agregar archivos: `git commit -m "mensaje"`
+6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**`
+7. Correción del mensaje del último commit: `git commit --amend`
+8. listado de commits: `git log`
+9. listado de commits en una línea: `git log --oneline`
+10. ver un número limitado de commits (últimos tres): `git log -3`
+11. Listado de commits con el nombre de archivos afectados: `git log --raw`
+12. Listado de commits con cambios hechos en los archivos: `git log --patch`
+
+13. git checkout -b miRama
+14. git branch
+15. git checkout master
+16. git branch -d miRama
+17. git push
+18. git push --set-upstream origin miRama
+19. git commit -am "msg"
+20. git pull
 
 ```ssh
 
