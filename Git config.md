@@ -94,7 +94,7 @@ git add .
 git add file
 ```
 
-## SACAR ARCHIVOS DEL ÍNDICE PARA EL COMMIT
+## SACAR ARCHIVOS DEL ÍNDICE
 
 - Sacar el archivo **file** del índice:
 
@@ -108,7 +108,14 @@ git restore --staged file
 git checkout -- file.ext
 ```
 
-5. Agregar archivos: `git commit -m "mensaje"`
+## GUARDAR ARCHIVOS EN EL REPOSITORIO LOCAL
+
+```ssh
+git commit -m "mensaje"
+```
+
+---
+
 6. Deja los archivos tal cual estaba en el último commit: `git checkout -- **file**`
 7. Correción del mensaje del último commit: `git commit --amend`
 8. listado de commits: `git log`
