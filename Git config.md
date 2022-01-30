@@ -103,7 +103,7 @@ git restore --staged file.ext`
 ```
 
 - Dejar el archivo **file.ext** por fuera:
-  aaaaa
+  aaaaa gcghdghdhgdhg
 
 ```ssh
 git restore --staged file.ext`
