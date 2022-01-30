@@ -71,6 +71,7 @@ En el archivo c:Program Files/Git/etc/gitconfig se le agrega al final:
 
 ```ssh
 git clone <url del Repo>
+git clone <url del Repo> <carpeta local>
 ```
 
 - iniciar el repo local:
@@ -79,7 +80,7 @@ git clone <url del Repo>
 git init
 ```
 
-## AÑADIR ARCHIVOS AL ÍNDICE
+## AÑADIR ARCHIVOS PARA EL COMMIT
 
 - Añadir **todos** archivos al índice:
 
