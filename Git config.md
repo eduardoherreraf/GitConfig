@@ -88,25 +88,25 @@ git init
 git add .
 ```
 
-- Añadir el archivo **file.ext**:
+- Añadir el archivo **file**:
 
 ```ssh
-git add file.ext
+git add file
 ```
 
 ## SACAR ARCHIVOS PARA EL COMMIT
 
-- Dejar el archivo **file.ext** por fuera:
+- Sacar el archivo **file** del índice:
 
 ```ssh
-git restore --staged file.ext`
+git restore --staged file
 ```
 
-- Dejar el archivo **file.ext** por fuera:
-  aaaaa gcghdghdhgdhg
+- Dejar el archivo **file** como estaba en el último commit
+  git checkout -- file
 
 ```ssh
-git restore --staged file.ext`
+git checkout -- file.ext
 ```
 
 5. Agregar archivos: `git commit -m "mensaje"`
