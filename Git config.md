@@ -34,10 +34,10 @@ git config --global core.pager ''
 
 ## CONFIGURACIÓN ALIASES COMO ATAJOS DE TECLADO
 
-En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig
-[alias]
+En el archivo se agrega al final => c:Program Files/Git/etc/gitconfig:
 
 ```ssh
+[alias]
     br = branch
     ci = commit
     co = checkout
