@@ -225,3 +225,7 @@ git pull
 # text in gray
 @@ text in purple (and bold)@@
 ```
+
+```diff
+@@ text in red @@
+```
