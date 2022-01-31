@@ -226,6 +226,4 @@ git pull
 @@ text in purple (and bold)@@
 ```
 
-```diff
-- text in red
-```
+<p style='color:red'>This is some red text.</p>
