@@ -196,13 +196,13 @@ git branch -d Rama
 
 ### ENVIAR A UN REPO EXTERNO
 
-- Subir los archivos al repo en github
+- Subir los archivos al repo remoto
 
 ```ssh
 git push
 ```
 
-- Subir los archivos a la **Rama**
+- Subir los archivos de la **Rama**
 
 ```ssh
 git push --set-upstream origin Rama
@@ -210,7 +210,7 @@ git push --set-upstream origin Rama
 
 ### BAJAR LOS CAMBIOS
 
-- Bajar los cambios de los archivosen el repo remoto
+- Bajar los cambios de los archivos del repo remoto
 
 ```ssh
 git pull
