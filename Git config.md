@@ -63,6 +63,18 @@ En el archivo c:Program Files/Git/etc/gitconfig se le agrega al final:
     dump = cat-file -p
 ```
 
+## Los COMANDOS MÁS USADOS
+
+```ssh
+git clone <url del Repo> o git init
+git add .
+git commit -m "mensaje"
+git push
+
+git checkout -b Rama
+
+```
+
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
 
 ### INICIAR REPOSITORIO
@@ -102,7 +114,7 @@ git add file
 git restore --staged file
 ```
 
-### VOLVER AL ESTADO DEL ÚLTIMO COMMIT
+### VOLVER AL ESTADO DEL ÚLTIMA CONFIRMACIÓN
 
 - Dejar todos los archivos guardadados tal como estaban en el último commit
 
@@ -130,36 +142,42 @@ git commit -am "mensaje"
 git commit --amend "mensaje"
 ```
 
-### LISTADO DE COMMITS HECHOS
+### HISTORIAL DE CONFIRMACIONES HECHAS
 
-- Listado de Commits:
+- Listado de Confirmaciones:
 
 ```ssh
 git log
 ```
 
-- Listado de Commits una línea por commit:
+- Listado de Confirmaciones una línea por Confirmación:
 
 ```ssh
 git log --oneline
 ```
 
-- Listado de los primeros **N** Commits:
+- Listado de las primeras **N** Confirmaciones:
 
 ```ssh
 git log -N
 ```
 
-- Listado de commits con el nombre de archivos afectados:
+- Listado de las Confirmaciones con el nombre de archivos afectados:
 
 ```ssh
 git log --raw
 ```
 
-- Listado de commits con cambios hechos en los archivos:
+- Listado de las Confirmaciones con cambios hechos en los archivos:
 
 ```ssh
 git log --patch
+```
+
+- Listado de las Confirmaciones con los cambios hechos en cada Confirmación de las últimas **N**:
+
+```ssh
+git log -p -N
 ```
 
 ### RAMAS
@@ -176,19 +194,21 @@ git branch
 git checkout -b Rama
 ```
 
-- Salta a la rama Master:
+- Salta a la **Rama**:
 
 ```ssh
-git checkout Master
+git checkout Rama
+git checkout master
+
 ```
 
 - Fusión **Rama** con Master:
 
 ```ssh
-git merge Rama
+git merge Rama -m "mensaje"
 ```
 
-- Borrar la **Rama** con Master (se debe estar en Master):
+- Borrar la **Rama** (se debe estar en Master):
 
 ```ssh
 git branch -d Rama
