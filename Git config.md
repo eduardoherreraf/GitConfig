@@ -67,6 +67,7 @@ En el archivo c:Program Files/Git/etc/gitconfig se le agrega al final:
 
 ```ssh
 git clone <url del Repo> o git init
+
 git add .
 git commit -m "mensaje"
 git push
