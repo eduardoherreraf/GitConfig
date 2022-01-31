@@ -219,6 +219,12 @@ git checkout master
 
 ```
 
+- Cambio de nombre de **Rama** a **Rama2**:
+
+```ssh
+git branch -m Rama2
+```
+
 - Fusión **Rama** con Master:
 
 ```ssh
@@ -247,8 +253,12 @@ git push --set-upstream origin Rama
 
 ### BAJAR LOS CAMBIOS
 
-- Bajar los cambios de los archivos del repo remoto
+- Bajar los cambios de los archivos del repo remoto (master)
 
 ```ssh
 git pull
 ```
+
+## FORMA DE SALIR DEL EDITOR VIM
+
+Teclear <esc> wq!
