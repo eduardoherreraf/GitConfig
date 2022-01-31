@@ -226,4 +226,4 @@ git pull
 @@ text in purple (and bold)@@
 ```
 
-<p style='color:red'><b>This is some red text.</b></p>
+<p style='color:green'><b>This is some red text.</b></p>
