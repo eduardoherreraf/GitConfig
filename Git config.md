@@ -170,7 +170,7 @@ git log --patch
 git branch
 ```
 
-- Se crea una rama y salta a ella:
+- Se crea una **Rama** y salta a ella:
 
 ```ssh
 git checkout -b Rama
@@ -179,7 +179,13 @@ git checkout -b Rama
 - Salta a la rama Master:
 
 ```ssh
-git checkout master
+git checkout Master
+```
+
+- Fusión **Rama** con Master:
+
+```ssh
+git merge Rama
 ```
 
 ---
