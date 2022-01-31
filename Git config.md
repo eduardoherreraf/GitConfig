@@ -102,15 +102,18 @@ git add file
 git restore --staged file
 ```
 
-- Dejar el archivo **file** como estaba en el último commit
+### VOLVER AL ESTADO DEL ÚLTIMO COMMIT
+
+- Dejar todos los archivos guardadados tal como estaban en el último commit
 
 ```ssh
-git checkout -- file.ext
+git checkout -- .
 ```
 
 ### CONFIRMAR LOS ARCHIVOS GUARDADADOS
 
 - Confirmar los archivos guardadados con `git add`
+
 ```ssh
 git commit -m "mensaje"
 ```
@@ -141,49 +144,29 @@ git log
 git log --oneline
 ```
 
-- Listado de sólo **N** Commits:
+- Listado de los primeros **N** Commits:
 
 ```ssh
 git log -N
 ```
+
 - Listado de commits con el nombre de archivos afectados:
 
 ```ssh
 git log --raw
 ```
---------
 
-ver un número limitado de commits (últimos tres): `
-
-- Listado de Commits una línea por commit
+- Listado de commits con cambios hechos en los archivos:
 
 ```ssh
-git log --oneline
-```
-
-- Listado de Commits una línea por commit
-
-```ssh
-git log --oneline
-```
-
-- Listado de Commits una línea por commit
-
-```ssh
-git log --oneline
-```
- ---
-
-- Listado de Commits una línea por commit
-
-```ssh
-git log --oneline
+git log --patch
 ```
 
 ---
 
-11. 
-12. Listado de commits con cambios hechos en los archivos: `git log --patch`
+---
+
+---
 
 13. git checkout -b miRama
 14. git branch
@@ -191,8 +174,7 @@ git log --oneline
 16. git branch -d miRama
 17. git push
 18. git push --set-upstream origin miRama
-19. git commit -am "msg"
-20. git pull
+19. git pull
 
 ```ssh
 
