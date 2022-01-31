@@ -203,11 +203,12 @@ git branch
 - Se crea una **Rama** y salta a ella:
 
 ```ssh
-git checkout -b Rama
-
-o
 git branch Rama
 git checkout Rama
+```
+
+```ssh
+git checkout -b Rama
 ```
 
 - Salta a la **Rama**:
