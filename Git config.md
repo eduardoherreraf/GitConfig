@@ -162,6 +162,12 @@ git log
 git log --oneline
 ```
 
+- Número de Confirmaciones hechas hasta el momento:
+
+```ssh
+git log --oneline | wc -l
+```
+
 - Listado de las primeras **N** Confirmaciones:
 
 ```ssh
@@ -198,6 +204,10 @@ git branch
 
 ```ssh
 git checkout -b Rama
+
+o
+git branch Rama
+git checkout Rama
 ```
 
 - Salta a la **Rama**:
