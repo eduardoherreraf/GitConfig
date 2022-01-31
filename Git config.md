@@ -162,15 +162,28 @@ git log --raw
 git log --patch
 ```
 
----
+### RAMAS
+
+- Muestra la rama actual:
+
+```ssh
+git branch
+```
+
+- Se crea una rama y salta a ella:
+
+```ssh
+git checkout -b Rama
+```
+
+- Salta a la rama Master:
+
+```ssh
+git checkout master
+```
 
 ---
 
----
-
-13. git checkout -b miRama
-14. git branch
-15. git checkout master
 16. git branch -d miRama
 17. git push
 18. git push --set-upstream origin miRama
