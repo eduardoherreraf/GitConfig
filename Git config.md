@@ -188,13 +188,30 @@ git checkout Master
 git merge Rama
 ```
 
----
-
-16. git branch -d miRama
-17. git push
-18. git push --set-upstream origin miRama
-19. git pull
+- Borrar la **Rama** con Master (se debe estar en Master):
 
 ```ssh
+git branch -d Rama
+```
 
+### ENVIAR A UN REPO EXTERNO
+
+- Subir los archivos al repo en github
+
+```ssh
+git push
+```
+
+- Subir los archivos a la **Rama**
+
+```ssh
+git push --set-upstream origin Rama
+```
+
+### BAJAR LOS CAMBIOS
+
+- Bajar los cambios de los archivosen el repo remoto
+
+```ssh
+git pull
 ```
