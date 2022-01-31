@@ -70,9 +70,14 @@ git clone <url del Repo> o git init
 git add .
 git commit -m "mensaje"
 git push
+git log
 
 git checkout -b Rama
+git push --set-upstream origin Rama
+git merge Rama -m "mensaje"
+git branch -d Rama
 
+git pull
 ```
 
 ## LOS COMANDOS PARA EL MANEJO DE ARCHIVOS EN GIT
