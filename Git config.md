@@ -158,7 +158,7 @@ git commit -m "mensaje"
 git commit -am "mensaje"
 ```
 
-- Corrige el mensaje del último commit:
+- Añadir archivos al último commit y/o cambio del mensaje de confirmación:
 
 ```ssh
 git commit --amend "mensaje"
