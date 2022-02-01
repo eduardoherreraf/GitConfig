@@ -72,6 +72,7 @@ git add .
 git commit -m "mensaje"
 git push
 git log
+git status
 
 git checkout -b Rama
 git push --set-upstream origin Rama
