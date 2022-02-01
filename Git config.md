@@ -128,6 +128,14 @@ git restore --staged file
 git checkout -- .
 ```
 
+### VER ESTADO DE LOS ARCHIVOS
+
+- Dejar todos los archivos guardadados tal como estaban en el último commit
+
+```ssh
+git STATUS
+```
+
 ### CONFIRMAR LOS ARCHIVOS GUARDADADOS
 
 - Confirmar los archivos guardadados con `git add`
