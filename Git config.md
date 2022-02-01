@@ -133,7 +133,7 @@ git checkout -- .
 - Dejar todos los archivos guardadados tal como estaban en el último commit
 
 ```ssh
-git STATUS
+git status
 ```
 
 ### CONFIRMAR LOS ARCHIVOS GUARDADADOS
