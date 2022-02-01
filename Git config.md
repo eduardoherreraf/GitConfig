@@ -117,7 +117,7 @@ git add file
 - Sacar el archivo **file**:
 
 ```ssh
-git restore --staged file
+git rm --cached file
 ```
 
 ### VOLVER AL ESTADO DEL ÚLTIMA CONFIRMACIÓN
@@ -130,10 +130,12 @@ git checkout -- .
 
 ### VER ESTADO DE LOS ARCHIVOS
 
-- Dejar todos los archivos guardadados tal como estaban en el último commit
+- Muestra el estado de los archivos.
 
 ```ssh
 git status
+git st -s (versión abreviada)
+git st --short (versión abreviada)
 ```
 
 ### CONFIRMAR LOS ARCHIVOS GUARDADADOS
