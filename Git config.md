@@ -119,19 +119,19 @@ git add file
 ```ssh
 git rm --cached file
 ```
+
 - Sacar el archivo **file**, si es modificado:
 
 ```ssh
 git restore --staged file
 ```
 
-
 ### VOLVER AL ESTADO DEL ÚLTIMA CONFIRMACIÓN
 
 - Dejar todos los archivos guardadados tal como estaban en el último commit
 
 ```ssh
-git checkout -- .
+git restore .
 ```
 
 ### VER ESTADO DE LOS ARCHIVOS
@@ -162,6 +162,20 @@ git commit -am "mensaje"
 
 ```ssh
 git commit --amend "mensaje"
+```
+
+### SACAR DE LA ZONA DE CONFIRMACIÓN
+
+- Sacar el archivo **file** de la zona de archivos confirmados:
+
+```ssh
+git rm --cached file
+```
+
+- Deshacer el comando anterior:
+
+```ssh
+git restore --staged file
 ```
 
 ### HISTORIAL DE CONFIRMACIONES HECHAS
