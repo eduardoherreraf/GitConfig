@@ -114,11 +114,17 @@ git add file
 
 ### SACAR ARCHIVOS DEL ÁREA DE PREPARACIÓN
 
-- Sacar el archivo **file**:
+- Sacar el archivo **file**, si es nuevo:
 
 ```ssh
 git rm --cached file
 ```
+- Sacar el archivo **file**, si es modificado:
+
+```ssh
+git restore --staged file
+```
+
 
 ### VOLVER AL ESTADO DEL ÚLTIMA CONFIRMACIÓN
 
@@ -146,7 +152,7 @@ git st --short (versión abreviada)
 git commit -m "mensaje"
 ```
 
-- Comando que añade y confirma los archivos:
+- Prepara y confirma los archivos:
 
 ```ssh
 git commit -am "mensaje"
