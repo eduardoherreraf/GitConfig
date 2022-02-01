@@ -99,29 +99,29 @@ git clone <url del Repo> <carpeta local>
 git init
 ```
 
-### AÑADIR ARCHIVOS AL ÁREA DE PREPARACIÓN PARA EL COMMIT
+### PREPARAR ARCHIVOS PARA EL COMMIT
 
-- Añadir **todos** archivos:
+- Preparar todos los archivos:
 
 ```ssh
 git add .
 ```
 
-- Añadir el archivo **file**:
+- Preparar el archivo **file**:
 
 ```ssh
 git add file
 ```
 
-### SACAR ARCHIVOS DEL ÁREA DE PREPARACIÓN
+### DESHACER ARCHIVOS PREPARADOS
 
-- Sacar el archivo **file**, si es nuevo:
+- Deshacer el archivo **file**, si es nuevo:
 
 ```ssh
 git rm --cached file
 ```
 
-- Sacar el archivo **file**, si es modificado:
+- Deshacer el archivo **file**, si es modificado:
 
 ```ssh
 git restore --staged file
@@ -129,10 +129,10 @@ git restore --staged file
 
 ### VOLVER AL ESTADO DEL ÚLTIMA CONFIRMACIÓN
 
-- Dejar todos los archivos guardadados tal como estaban en el último commit
+- Dejar todos los archivos confirmados tal como estaban en el último commit
 
 ```ssh
-git restore .
+git rm --cached .
 ```
 
 ### VER ESTADO DE LOS ARCHIVOS
