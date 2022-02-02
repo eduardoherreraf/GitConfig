@@ -145,35 +145,35 @@ git st -s (versión abreviada)
 git st --short (versión abreviada)
 ```
 
-### CONFIRMAR LOS ARCHIVOS GUARDADADOS
+### CONFIRMAR LOS ARCHIVOS PREPARADOS
 
-- Confirmar los archivos guardadados con `git add`
+- Confirmar los archivos preparados con `git add`
 
 ```ssh
 git commit -m "mensaje"
 ```
 
-- Prepara y confirma los archivos:
+- Prepara y confirma los archivos a la vez:
 
 ```ssh
 git commit -am "mensaje"
 ```
 
-- Añadir archivos al último commit y/o cambio del mensaje de confirmación:
+- Confirma los archivos que hicieron al último commit y/o cambio del mensaje, se edita la última confirmación:
 
 ```ssh
 git commit --amend "mensaje"
 ```
 
-### SACAR DE LA ZONA DE CONFIRMACIÓN
+### DESHACER LA CONFIRMACIÓN
 
-- Sacar el archivo **file** de la zona de archivos confirmados:
+- Se deshace la confirmación del archivo **file**:
 
 ```ssh
 git rm --cached file
 ```
 
-- Deshacer el comando anterior:
+- Deshacer el comando anterior, vuelve a confirmar el archivo **file**:
 
 ```ssh
 git restore --staged file
