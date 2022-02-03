@@ -276,7 +276,7 @@ git branch -d Rama
 git push
 ```
 
-- Subir los archivos de la **Rama**
+- Subir los archivos de la **Rama**, localizado en esa **Rama**.
 
 ```ssh
 git push -u origin Rama
