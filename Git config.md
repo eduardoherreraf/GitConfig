@@ -279,7 +279,7 @@ git push
 - Subir los archivos de la **Rama**
 
 ```ssh
-git push --set-upstream origin Rama
+git push -u origin Rama
 ```
 
 ### BAJAR LOS CAMBIOS
